@@ -23,12 +23,15 @@ cipher-system/
 Install GHC via https://www.haskell.org/ghcup/
 
 With Cabal:
+```
   cabal update
   cabal run
-
+```
 With GHC directly (Windows):
+```
   ghc -o cipher Main.hs Types.hs Caesar.hs Vigenere.hs Cracker.hs
   .\cipher.exe
+````
 
 ## Functional Concepts Used
 - Algebraic Data Types
